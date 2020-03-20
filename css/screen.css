@@ -186,6 +186,9 @@ a:focus {
 
 .o-container {
     margin: 0 auto;
+    max-width: 90em;
+    align-items: center;
+    text-align: ;
 }
 
 /*------------------------------------*\
@@ -209,10 +212,23 @@ a:focus {
 */
 
 .u-max-width-sm {
-    max-width: 36em;
+    max-width: 36em !important;
 }
+
 .u-max-width-md {
-    max-width: 90em;
+    max-width: 45em;
+}
+
+.u-max-width-lg {
+    max-width: 60em;
+}
+
+.u-max-width-xl {
+    max-width: 75em;
+}
+
+.u-max-width-none {
+    max-width: none;
 }
 /*
     Utility: Utility name
