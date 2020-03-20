@@ -61,6 +61,8 @@ img {
     Default markup for typographic elements
 */
 
+
+
 h1 {
     font-family: "Times New Roman", serif;
     font-size: 36px;
@@ -169,6 +171,23 @@ a:focus {
     Object description
 */
 
+.o-row {
+    padding: 24px 24px 0;
+    display: flow-root;
+}
+.o-row--dark {
+    background: #131313;
+    color: white;
+}
+.o-row--primary {
+    background: #e85d01;
+    color: white;
+}
+
+.o-container {
+    margin: 0 auto;
+}
+
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
@@ -192,13 +211,29 @@ a:focus {
 .u-max-width-sm {
     max-width: 36em;
 }
-
+.u-max-width-md {
+    max-width: 90em;
+}
 /*
     Utility: Utility name
     ---
     Utility description
 */
+@media (min-width: 576px) {
+    .o-row--lg {}
+}
 
+@media (min-width: 768px) {
+    .o-row--lg {}
+}
+
+@media (min-width: 992px) {
+    .o-row--lg {}
+}
+
+@media (min-width: 1200px) {
+    .o-row--lg {}
+}
 /*------------------------------------*\
   #MEDIA
 \*------------------------------------*/
